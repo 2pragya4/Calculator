@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Calculator </title>
+        <link rel="stylesheet" type="text/css" href="calstyle.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <!--<h1 id="heading"> <span id="body-heading">Calculator </span> </h1>-->
+            Calculator
+        </div>
+        <!-- need to have our own attribute for values to be known using data-value attribute-->
+        <div class="outerdiv">
+            <div class="result">
+                <p id="textDisplay"></p>
+            </div>
+
+            <div class="numbers">
+                <div class="units" data-value="AC">
+                    <span class="digits"> AC </span>
+                </div>
+                <div class="units" data-value="sign">
+                    <span> +/-</span>
+                </div>
+                <div class="units" data-value="%">
+                    <span> %</span>
+                </div>
+                <div class="units operator-color" data-value="/">
+                    <span> / </span>
+                </div>
+
+                <div class="units" data-value="7">
+                    <span> 7</span>
+                </div>
+                <div class="units" data-value="8">
+                    <span> 8</span>
+                </div>
+                <div class="units" data-value="9">
+                    <span> 9</span>
+                </div>
+                <div class="units operator-color" data-value="*">
+                    <span> *</span>
+                </div>
+
+                <div class="units" data-value="4">
+                    <span> 4</span>
+                </div>
+                <div class="units" data-value="5">
+                    <span> 5</span>
+                </div>
+                <div class="units" data-value="6">
+                    <span> 6</span>
+                </div>
+                <div class="units operator-color" data-value="-">
+                    <span> -</span>
+                </div>
+
+                <div class="units" data-value="1">
+                    <span> 1</span>
+                </div>
+                <div class="units" data-value="2">
+                    <span> 2</span>
+                </div>
+                <div class="units" data-value="3">
+                    <span> 3</span>
+                </div>
+                <div class="units operator-color" data-value="+">
+                    <span> +</span>
+                </div>
+
+                <div class="units units-larger text-align" data-value="0">
+                    <span> 0</span>
+                </div>
+
+                <div class="units" data-value=".">
+                    <span> . </span>
+                </div>
+                <div class="units operator-color" data-value="=">
+                    <span> =</span>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
